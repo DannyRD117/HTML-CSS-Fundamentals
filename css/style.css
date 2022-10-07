@@ -90,6 +90,26 @@ li:last-child {
   color: red;
 } */
 
-article p:last-child {
+/*! Misconception: this won't work*/
+article p:first-child {
   color: red;
+}
+
+/** Styling links*/
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+}
+
+a:active {
+  background-color: black;
 }
